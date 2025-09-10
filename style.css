@@ -1,0 +1,62 @@
+body{
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+
+
+}
+
+main{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 25px;
+     max-width:100%  
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    border: 20px;
+    color: red;
+
+}
+a:hover{
+    color: blue;
+}
+@media screen and (max-width: 1000px) {
+    body{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         gap: 25px;
+         max-width:100% 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 25px;
+         max-width:100% 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body{
+         display: grid;
+         grid-template-columns: 1fr;
+         gap: 25px;
+         max-width:100% 
+    }
+}
+
+nav{
+     text-align: center;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     max-width:100% 
+    
+
+}
